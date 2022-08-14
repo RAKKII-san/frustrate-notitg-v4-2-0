@@ -1,0 +1,12 @@
+<Layer Type = "ActorFrame"><children>
+	<Layer Type="Quad" Name="bg_black" InitCommand="xy,SCREEN_CENTER_X,SCREEN_CENTER_Y;zoomto,SCREEN_WIDTH,SCREEN_HEIGHT;diffusealpha,0" />
+	<Layer File="vignette" Name="bg_vignette" InitCommand="xy,SCREEN_CENTER_X,SCREEN_CENTER_Y;zoomto,SCREEN_WIDTH,SCREEN_HEIGHT;" />
+	<Layer Type="sprite" File="quadpanel" Name='bg_quadpanel' />
+	<Layer Type = "ActorProxy" Name = "PC[1]" />
+	<Layer Type = "ActorProxy" Name = "PC[2]" />
+	<Layer Type = "ActorProxy" Name = "PJ[1]" />
+	<Layer Type = "ActorProxy" Name = "PJ[2]" />
+	<Layer Type = "ActorProxy" Name = "PP[1]" />
+	<Layer Type = "ActorProxy" Name = "PP[2]" />
+	<Layer Type="Quad" Name="bg_fadein" InitCommand="xy,SCREEN_CENTER_X,SCREEN_CENTER_Y;zoomto,SCREEN_WIDTH,SCREEN_HEIGHT;diffusealpha,0.75" />
+</children></Layer>
